@@ -1,0 +1,198 @@
+  
+  
+  *{
+  margin:0;
+  padding:0;
+}
+.clear{
+  clear: both;
+}
+body{
+  background-color: black;
+  color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.button{
+  border: 1px solid white;
+  background-color:white;
+  color:black;
+  width: 30%;
+}
+.button-in-midle{
+  text-align: center;
+}
+
+
+  .nav-top{
+    width:100%;
+    padding:.5%;
+    background-color: black;
+  } 
+  .logo-left{
+    float:left;
+    padding-left: 10%;
+  
+  }
+  .logo-left ul li{
+    display: inline-block;
+    font-size:xx-large;
+    font-weight: bold;
+    color: white;
+  }
+  .logo-left ul li .white{
+    color: white;
+  } 
+  
+  .links-right{
+    float: right;
+    padding-top: 2%;
+    padding-right: 10%;
+  }
+  .links-right ul li{
+    display: inline-block;
+    margin-left: 15px;
+  }
+  .links-right ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+ /*------------------------------banner-------------------------*/
+ .banner{
+   margin-top: 3%;
+   /* border:1px solid red; */
+   text-align: center;
+ }
+ .banner-title{
+   text-align: center;
+ }
+ .banner h2{
+   margin-top: 3%;
+ }
+ .banner h4{
+   margin-top: 1%;
+ }
+ .banner button{
+   margin-top: 3%;
+ }
+
+  /*------------------------------Top Content-------------------------*/
+  .top-content{
+    /* border: 1px solid red; */
+    margin-top: 8%;
+    margin-right: 8%;
+    margin-left: 8%;
+  }
+  .top-content h2{
+    text-align: center;
+    margin-bottom: 3%;
+  }
+  .button-top-content{
+    border-radius: 50px;
+  }
+  .margin-top{
+    margin-top: 3%;
+  }
+
+  /*------------------------------ Our Awards Categories -------------------------*/
+
+  .our-awards-categories{
+    margin-top: 8%;
+    margin-right: 8%;
+    margin-left: 8%;
+  }
+  .our-awards-categories h2{
+    text-align: center;
+  }
+
+  /*------------------------------ Spinner Offer -------------------------*/
+
+  .button-spinner-offer{
+    width: 100%;
+
+  }
+
+  /*------------------------------Submit Content -------------------------*/
+
+  .submit-content{
+    /* border: 1px solid red; */
+    margin-top: 10%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    background-color: rgb(47, 47, 47);
+    padding-bottom: 5%;
+    padding-right: 2%;
+    padding-left: 5%;
+  }
+  .submit-content .what{
+    font-size: 40px;
+  }
+  .h3-left{
+    float: left;
+  }
+  .button-in-right{
+    float: right;
+    text-align: right;
+  }
+  .button-w{
+    width: 100%;
+  }
+
+  /*---------Footer ---------------*/
+  .social-icon{
+    font-size: 30px;
+  }
+ /* .col-1{
+   border: 1px solid red;
+ } */
+ /* .footer-logo{
+   margin: 0%;
+   padding: 0%;
+ } */
+
+ /* Maps */
+ #map{
+  display: flex;
+  width: 100%;
+  height: 75%;
+  margin: auto;
+ }
+
+ /*----------Responsive Tablet ---------------------*/
+
+@media (max-width:768px){
+  .links-right{
+    float: right;
+    padding-top: 2%;
+    padding-right: 3%;
+  }
+  .banner h4{
+    color: red;
+    margin-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .button{
+    border: 1px solid white;
+    background-color:white;
+    color:black;
+    width: 40%;
+  }
+}
+
+@media (max-width:375px){
+  .button{
+    border: 1px solid white;
+    background-color:white;
+    color:black;
+    width: 100%;
+  }
+  
+  }
+
+  
